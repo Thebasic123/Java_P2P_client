@@ -1,6 +1,3 @@
-# Java_P2P_client-
-implement DHT P2P client with Java socket programming 
-
 This program is a standard version of COMP3331 programming assignment(without extension function).
 
 use standard bash scrip to generate users for program, which has to follow format :
