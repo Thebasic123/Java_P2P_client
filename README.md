@@ -1,13 +1,17 @@
 # Java_P2P_client-
 implement DHT P2P client with Java socket programming 
 
-This program is a standard version of COMP3331 programming assignment(without extension function).
+This program is a simplified  version of DHT P2P client.
 
 use standard bash scrip to generate users for program, which has to follow format :
 
 xterm -hold -title "Peer x" -e "java cdht args1 args2 args3" &
 where x represents peer name and args1, args2 and args3 are integer numbers 
 which are current peer identity,first successor identity and second successor identity respectively.
+
+There is a simple test in bin folder, it's named setup.sh. 
+Run setup.sh in terminal, program will open few xterms and start sending 
+messages to each other.
 
 There are two commands in this java program:
 1.request xxxx
@@ -20,3 +24,5 @@ otherwise, program will tell user to wait few seconds then try again.
 
 For the other inputs, program will not react but only print out:
 "command" is not a valid command !!!
+
+For more details about design, please read report.pdf
